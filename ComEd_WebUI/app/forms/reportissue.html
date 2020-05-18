@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Report an issue</title>
+  </head>
+  <body><font size="2"> <font color="blue"> Reporting an issue?</font>
+      <hr><font color="green">Let us know what went wrong?</font><br>
+      <br>
+      <form>
+        <input type="radio" name="cause" value="My pizza was not delivered." checked>My pizza was not delivered."<br>
+        <input type="radio" name="cause" value="I was not given the discount.">I was not given the discount.<br>
+        <input type="radio" name="cause" value="I was charged incorrectly.">I was charged incorrectly.<br>
+        <input type="radio" name="cause" value="I did not enjoy my pizza.">I did not enjoy my pizza today.<br>
+        <br>
+        <input type="button" value="Report Issue" onclick="window.parent.parent.sendMessage('Issue Reported - '+ document.forms[0].cause.value); window.parent.document.getElementById('webview').style.display='none';">
+    	</form> 
+    </font>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "name": "ComED Services",
+  "hostName": "?envirornmentUrl/.mcs",
+  "payBillWalletPost": {
+    "name": "payBillWalletPost",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/wallet/query",
+    "method": "Post",
+    "postParams": {
+      "auth_session_token": "",
+      "biller_id": "ComEdRegistered"
+    }
+  },
+  "payBillCreatePaymentPost": {
+    "name": "payBillCreatePaymentPost",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber/payments/schedule",
+    "method": "Post",
+    "postParams": {
+      "auth_session_token": "",
+      "biller_id": "ComEdRegistered",
+      "is_existing_account": true,
+      "is_save_account": false,
+      "masked_wallet_item_account_number": "?masked_wallet_item_account_number",
+      "payment_amount": "?payment_amount",
+      "payment_category_type": "?payment_category_type",
+      "payment_date": "?payment_date",
+      "wallet_id": "?wallet_id",
+      "wallet_item_id": "?wallet_item_id"
+    }
+  },
+  "outagePost": {
+    "name": "outageApi",
+    "url": "?hostName/mobile/custom/anon?mcsVersionAnon/ComEd/outage/query",
+    "method": "Post",
+    "postParams": {
+      "phone": "?phone",
+      "account_number": "?account_number"
+    }
+  },
+  "outageAuthenticatedGet": {
+    "name": "outageAuthenticatedGetApi",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber/outage",
+    "method": "Get"
+  },
+  "copyOfBillGet": {
+    "name": "copyOfBillGetApi",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber/billing/?bdate/pdf",
+    "method": "Get"
+  },
+  "accountBalanceGet": {
+    "name": "accountBalanceGet",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber",
+    "method": "Get"
+  },
+  "budgetBillingGet": {
+    "name": "getBudgetBillingApi",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber/billing/budget",
+    "method": "Get"
+  },
+  "budgetEnrollmentPut": {
+    "name": "budgetEnrollmentPutApi",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber/billing/budget",
+    "method": "Put"
+  },
+  "reportOutagePost": {
+    "name": "reportOutagePostApi",
+    "url": "?hostName/mobile/custom/anon?mcsVersionAnon/ComEd/outage/",
+    "method": "Post",
+    "postParams": {
+      "outageIssue": "?outageIssue",
+      "unusual": "?unusual",
+      "account_number": "?account_number"
+    }
+  },
+  "reportOutageAuthenticatedPost": {
+    "name": "reportOutageAuthenticatedPost",
+    "url": "?hostName/mobile/custom/auth?mcsVersionAuth/accounts/?accountNumber/outage",
+    "method": "Post",
+    "postParams": {
+      "outageIssue": "?outageIssue",
+      "unusual": "?unusual"
+    }
+  },
+  "idcsOauthTokenApi":{
+    "contentType" : "application/x-www-form-urlencoded; charset=utf-8",
+    "idcsAuthorizationURI" : "/oauth2/v1/token",
+    "conversationUri": "/api/v1/bots/sessions/?sessionId/log"   
+  }, 
+  "chatSurveyApi": {
+    "name": "chatSurveyApi",
+    "url": "?feedBackHostName/chatbot/feedback",
+    "method": "Post",
+    "Ocp-Apim-Subscription-Key": "?OcpApimSubscriptionKey",
+    "postParams": {
+      "userName": "?userName",
+      "source": "Digital Assistant",
+      "rating": "?rating",
+      "comments": "?comments",
+      "timestamp": "?timestamp"
+    }
+  }
+}

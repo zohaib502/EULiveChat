@@ -1,0 +1,45 @@
+{
+  "name": "my-custom-component",
+  "version": "1.0.0",
+  "description": "Oracle Bots Custom Component Package",
+  "main": "main.js",
+  "scripts": {
+    "bots-node-sdk": "bots-node-sdk",
+    "help": "npm run bots-node-sdk -- --help",
+    "prepack": "npm run bots-node-sdk -- --pack --dry-run",
+    "start": "npm run bots-node-sdk -- --service ."
+  },
+  "repository": {},
+  "dependencies": {
+    "base64topdf": "^1.1.8",
+    "cheerio": "^1.0.0-rc.3",
+    "email-validator": "^2.0.4",
+    "json-2-csv": "^3.5.9",
+    "json2csv": "^4.5.4",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.4.2",
+    "nodemailer-relay": "^1.0.0",
+    "pdf-image": "^2.0.0",
+    "request": "^2.88.0",
+    "spsave": "^3.1.6"
+  },
+  "devDependencies": {
+    "@oracle/bots-node-sdk": "^2.2.2",
+    "express": "^4.16.3"
+  },
+  "bundledDependencies": [
+    "base64topdf",
+    "cheerio",
+    "email-validator",
+    "json-2-csv",
+    "json2csv",
+    "lodash",
+    "moment",
+    "nodemailer",
+    "nodemailer-relay",
+    "pdf-image",
+    "request",
+    "spsave"
+  ]
+}

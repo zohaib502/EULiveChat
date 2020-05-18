@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.9235645,0.25077796 C5.47388238,1.58359265 4.51347876,2.25 3.04235364,2.25 C1.53634924,2.25 0.549072928,1.58435006 0.0805247154,0.253050177 C0.0457187574,0.154072678 0.0977118225,0.0456062184 0.19668025,0.010774487 C0.216942716,0.00364315457 0.23826791,3.94595314e-18 0.259748679,0 L5.74342446,0 C5.84842306,-0.000116799174 5.93354126,0.0850013911 5.93354126,0.19 C5.93354126,0.210666923 5.93017146,0.231195575 5.9235645,0.25077796 Z" id="path-1"></path>
+    </defs>
+    <g id="Dev-Handoff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-130.000000, -179.000000)">
+            <g id="Group-4" transform="translate(130.000000, 179.000000)">
+                <circle id="Oval-Copy-5" fill="#CE1141" cx="15" cy="15" r="15"></circle>
+                <circle id="Oval-Copy-6" fill="#F0F0F0" cx="15" cy="13" r="10"></circle>
+                <polyline id="Path-4-Copy-4" stroke="#F0F0F0" stroke-width="2" fill="#F0F0F0" stroke-linecap="round" stroke-linejoin="round" points="13 22 13 24 17 24 17 22"></polyline>
+                <rect id="Rectangle-Copy-40" fill="#FFFFFF" x="13" y="26" width="4" height="2" rx="1"></rect>
+                <path d="M19.8,11.8 C19.8,13.3465779 19.1732531,14.6 18.4,14.6 C17.6262788,14.6 17,13.3465779 17,11.8 C17,10.2539401 17.6262788,9 18.4,9 C18.7739886,9 19.1138081,9.2936737 19.3646941,9.77121717 L18.4,12.1123196 L19.8,11.8 Z" id="Fill-11-Copy-7" fill="#3A3A3A"></path>
+                <path d="M12.8,11.8 C12.8,13.3465779 12.172785,14.6 11.4,14.6 C10.6262788,14.6 10,13.3465779 10,11.8 C10,10.2539401 10.6262788,9 11.4,9 C11.7739886,9 12.11334,9.2936737 12.3646941,9.77121717 L11.4,12.1123196 L12.8,11.8 Z" id="Fill-13-Copy-7" fill="#3A3A3A"></path>
+                <g id="Stroke-7-Copy-5" transform="translate(12.000000, 17.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#A61936" stroke-linejoin="round" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
