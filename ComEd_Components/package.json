@@ -17,7 +17,7 @@
     "json-2-csv": "^3.5.9",
     "json2csv": "^4.5.4",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "nodemailer": "^6.4.2",
     "nodemailer-relay": "^1.0.0",
     "pdf-image": "^2.0.0",
